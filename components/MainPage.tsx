@@ -6,7 +6,7 @@ import GuestForm from "./GuestForm";
 const SAGE       = "#7A8A42";  // olive grass green — hero bg (from photo field)
 const BURGUNDY   = "#591e2a";  // deep wine — vibe heading, footer
 const GOLD       = "#C4A870";  // straw tan — accents, labels (from photo hat)
-const ORANGE     = "#591e2a";  // deep wine red — details section accent
+const ORANGE     = "#B87448";  // warm terracotta — details section bg
 const PERIWINKLE = "#8899AB";  // stormy slate blue — CTA section (from photo sky)
 const OLIVE      = "#464719";  // dark olive — text, footer bg
 const MAUVE      = "#DDD5BF";  // warm cream — vibe section (from photo clothes)
