@@ -93,7 +93,7 @@ export default function MainPage() {
       </section>
 
       {/* Wave divider sage → burgundy */}
-      <div style={{ backgroundColor: BURGUNDY, lineHeight: 0 }} aria-hidden="true">
+      <div style={{ backgroundColor: BURGUNDY, lineHeight: 0, marginBottom: "-1px" }} aria-hidden="true">
         <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style={{ width: "100%", display: "block", height: "60px" }}>
           <path d="M0,0 L0,30 C200,80 400,10 600,55 C800,90 1000,15 1200,45 L1200,0 Z" fill={SAGE} />
         </svg>
@@ -143,7 +143,7 @@ export default function MainPage() {
       </section>
 
       {/* Wave divider burgundy → orange */}
-      <div style={{ backgroundColor: ORANGE, lineHeight: 0 }} aria-hidden="true">
+      <div style={{ backgroundColor: ORANGE, lineHeight: 0, marginBottom: "-1px" }} aria-hidden="true">
         <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style={{ width: "100%", display: "block", height: "60px" }}>
           <path d="M0,0 L0,25 C350,78 750,15 1200,60 L1200,0 Z" fill={BURGUNDY} />
         </svg>
@@ -204,7 +204,7 @@ export default function MainPage() {
       </section>
 
       {/* Wave divider orange → periwinkle */}
-      <div style={{ backgroundColor: PERIWINKLE, lineHeight: 0 }} aria-hidden="true">
+      <div style={{ backgroundColor: PERIWINKLE, lineHeight: 0, marginBottom: "-1px" }} aria-hidden="true">
         <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style={{ width: "100%", display: "block", height: "60px" }}>
           <path d="M0,0 L0,55 C300,15 900,72 1200,25 L1200,0 Z" fill={ORANGE} />
         </svg>
@@ -233,7 +233,7 @@ export default function MainPage() {
       </section>
 
       {/* Wave divider periwinkle → mauve */}
-      <div style={{ backgroundColor: MAUVE, lineHeight: 0 }} aria-hidden="true">
+      <div style={{ backgroundColor: MAUVE, lineHeight: 0, marginBottom: "-1px" }} aria-hidden="true">
         <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style={{ width: "100%", display: "block", height: "60px" }}>
           <path d="M0,0 L0,35 C200,78 400,20 600,58 C800,85 1000,25 1200,50 L1200,0 Z" fill={PERIWINKLE} />
         </svg>

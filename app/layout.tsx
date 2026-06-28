@@ -28,7 +28,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Etienne & Lucia — July 29 – August 1, 2027",
+  title: "Click for a surprise 💌",
   description: "Save the date for our wedding weekend retreat.",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💌</text></svg>",
