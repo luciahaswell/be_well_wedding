@@ -129,8 +129,8 @@ export default function MainPage() {
             style={{ color: MAUVE, opacity: 0.7 }}
           >
             It&apos;s our wedding weekend — but really it&apos;s just an excuse
-            to get everyone we love in one place. Good food, cold mornings,
-            warm nights, and way too many good conversations.
+            to get everyone we love in one place. Exepct amazing food, killer tunes, 
+            bad dance moves, and lovely company.
           </p>
           <p
             className="font-body text-[15px] md:text-base leading-relaxed"
@@ -263,9 +263,13 @@ export default function MainPage() {
             className="font-body text-[15px] leading-relaxed"
             style={{ color: OLIVE, opacity: 0.75 }}
           >
-            Invitations, where to stay, what to pack — all coming soon.
+            Invitations, transportation logistics, what to pack — all coming soon.
             In the meantime, block off the dates and start thinking about
-            your Colorado outfits.
+            your Colorado outfits.{" "}
+            <br />
+            <br />
+            <b>Due to limited spacing, please let us know if you can make the dates work
+            as soon as you can.</b>
           </p>
         </div>
       </section>
