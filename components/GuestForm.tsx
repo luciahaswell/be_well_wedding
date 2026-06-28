@@ -43,7 +43,7 @@ export default function GuestForm() {
     borderRadius: "0.5rem",
     padding: "0.75rem 1rem",
     fontFamily: "inherit",
-    fontSize: "0.9375rem",
+    fontSize: "1rem",
     color: OLIVE,
     outline: "none",
   };
@@ -57,7 +57,7 @@ export default function GuestForm() {
         >
           You&apos;re on the list!
         </p>
-        <p className="font-body text-sm" style={{ color: OLIVE, opacity: 0.65 }}>
+        <p className="font-body text-base" style={{ color: OLIVE, opacity: 0.65 }}>
           We&apos;ll be in touch with more details soon.
         </p>
       </div>
@@ -68,7 +68,7 @@ export default function GuestForm() {
     <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto flex flex-col gap-4">
       <div className="flex flex-col gap-1">
         <label
-          className="font-syne text-[10px] tracking-widest uppercase"
+          className="font-syne text-xs tracking-widest uppercase"
           style={{ color: OLIVE, opacity: 0.6 }}
         >
           Name
@@ -86,7 +86,7 @@ export default function GuestForm() {
 
       <div className="flex flex-col gap-1">
         <label
-          className="font-syne text-[10px] tracking-widest uppercase"
+          className="font-syne text-xs tracking-widest uppercase"
           style={{ color: OLIVE, opacity: 0.6 }}
         >
           Mailing Address
@@ -104,7 +104,7 @@ export default function GuestForm() {
 
       <div className="flex flex-col gap-1">
         <label
-          className="font-syne text-[10px] tracking-widest uppercase"
+          className="font-syne text-xs tracking-widest uppercase"
           style={{ color: OLIVE, opacity: 0.6 }}
         >
           Email Address

@@ -118,14 +118,14 @@ export default function MainPage() {
             className="font-heading leading-[1.1] mb-8"
             style={{
               color: MAUVE,
-              fontSize: "clamp(2rem, 7vw, 3.6rem)",
+              fontSize: "clamp(2rem, 7vw, 3.5rem)",
               fontWeight: 800,
             }}
           >
             Three nights in the mountains with our favorite people.
           </h2>
           <p
-            className="font-body text-[15px] md:text-base leading-relaxed mb-4"
+            className="font-body text-base leading-relaxed mb-4"
             style={{ color: MAUVE, opacity: 0.7 }}
           >
             It&apos;s our wedding weekend — but really it&apos;s just an excuse
@@ -133,7 +133,7 @@ export default function MainPage() {
             bad dance moves, and lovely company.
           </p>
           <p
-            className="font-body text-[15px] md:text-base leading-relaxed"
+            className="font-body text-base leading-relaxed"
             style={{ color: MAUVE, opacity: 0.7 }}
           >
             Come Thursday, leave Sunday after brunch. We want you there for
@@ -183,7 +183,7 @@ export default function MainPage() {
               </div>
               <div>
                 <p
-                  className="font-syne text-[10px] tracking-widest uppercase mb-2"
+                  className="font-syne text-xs tracking-widest uppercase mb-2"
                   style={{ color: BURGUNDY }}
                 >
                   {title}
@@ -191,7 +191,7 @@ export default function MainPage() {
                 {body.split("\n").map((line, i) => (
                   <p
                     key={i}
-                    className="font-body text-[13px] leading-snug"
+                    className="font-body text-sm leading-snug"
                     style={{ color: BURGUNDY, opacity: 0.85 }}
                   >
                     {line}
@@ -218,7 +218,7 @@ export default function MainPage() {
         <div className="max-w-md mx-auto">
           <h2
             className="font-heading leading-tight mb-2 text-center"
-            style={{ color: BURGUNDY, fontSize: "clamp(2rem, 7vw, 3.2rem)", fontWeight: 800 }}
+            style={{ color: BURGUNDY, fontSize: "clamp(2rem, 7vw, 3.5rem)", fontWeight: 800 }}
           >
             We&apos;d love your details.
           </h2>
@@ -255,12 +255,12 @@ export default function MainPage() {
           </p>
           <h2
             className="font-heading leading-tight mb-5"
-            style={{ color: BURGUNDY, fontSize: "clamp(2rem, 7vw, 3.2rem)", fontWeight: 800 }}
+            style={{ color: BURGUNDY, fontSize: "clamp(2rem, 7vw, 3.5rem)", fontWeight: 800 }}
           >
             More details on the way.
           </h2>
           <p
-            className="font-body text-[15px] leading-relaxed"
+            className="font-body text-base leading-relaxed"
             style={{ color: OLIVE, opacity: 0.75 }}
           >
             Invitations, transportation logistics, what to pack — all coming soon.
@@ -314,7 +314,7 @@ export default function MainPage() {
             Etienne &amp; Lucia
           </p>
           <p
-            className="font-syne text-[10px] tracking-[0.25em] uppercase"
+            className="font-syne text-xs tracking-[0.25em] uppercase"
             style={{ color: OLIVE, opacity: 0.6 }}
           >
           July 29 – August 1, 2027
