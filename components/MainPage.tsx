@@ -122,14 +122,14 @@ export default function MainPage() {
               fontWeight: 800,
             }}
           >
-            Three Nights in the mountains with our favorite people.
+            Three nights in the mountains with our favorite people.
           </h2>
           <p
             className="font-body text-[15px] md:text-base leading-relaxed mb-4"
             style={{ color: MAUVE, opacity: 0.7 }}
           >
             It&apos;s our wedding weekend — but really it&apos;s just an excuse
-            to get everyone we love in one place. Exepct amazing food, killer tunes, 
+            to get everyone we love in one place. Expect amazing food, killer tunes, 
             bad dance moves, and lovely company.
           </p>
           <p
