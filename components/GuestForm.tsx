@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 
-const PERIWINKLE = "#98a8d9";
+const PERIWINKLE = "#8899AB";
 const BURGUNDY   = "#591e2a";
 const OLIVE      = "#464719";
-const MAUVE      = "#d6a6b1";
-const GOLD       = "#b4a64b";
+const MAUVE      = "#DDD5BF";
+const GOLD       = "#C4A870";
 
 export default function GuestForm() {
   const [form, setForm] = useState({ name: "", address: "", email: "" });

@@ -3,8 +3,8 @@
 import { useState } from "react";
 
 const BURGUNDY = "#591e2a";
-const MAUVE    = "#d6a6b1";
-const GOLD     = "#b4a64b";
+const MAUVE    = "#DDD5BF";
+const GOLD     = "#C4A870";
 const OLIVE    = "#464719";
 
 export default function PasswordGate({ onUnlock }: { onUnlock: () => void }) {

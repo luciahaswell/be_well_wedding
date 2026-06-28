@@ -16,11 +16,11 @@
 
 :root {
   --burgundy:   #591e2a;
-  --gold:       #b4a64b;
-  --orange:     #d2682b;
-  --periwinkle: #98a8d9;
+  --gold:       #C4A870;
+  --orange:     #B87448;
+  --periwinkle: #8899AB;
   --olive:      #464719;
-  --mauve:      #d6a6b1;
+  --mauve:      #DDD5BF;
 
   --background: var(--mauve);
   --foreground: var(--olive);
@@ -36,7 +36,7 @@
 @layer base {
   * { @apply border-border; }
   body {
-    background-color: #d6a6b1;
+    background-color: #DDD5BF;
     color: #464719;
     font-family: var(--font-body);
     font-weight: 400;

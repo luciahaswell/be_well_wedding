@@ -3,13 +3,13 @@
 import { MapPin, Calendar } from "lucide-react";
 import GuestForm from "./GuestForm";
 
-const SAGE       = "#9DC494";  // muted sage green — hero bg
+const SAGE       = "#7A8A42";  // olive grass green — hero bg (from photo field)
 const BURGUNDY   = "#591e2a";  // deep wine — vibe heading, footer
-const GOLD       = "#b4a64b";  // olive gold — accents, labels
-const ORANGE     = "#d2682b";  // burnt orange — details section
-const PERIWINKLE = "#98a8d9";  // muted blue-lavender — CTA section
+const GOLD       = "#C4A870";  // straw tan — accents, labels (from photo hat)
+const ORANGE     = "#B87448";  // warm terracotta — details section (from photo earth)
+const PERIWINKLE = "#8899AB";  // stormy slate blue — CTA section (from photo sky)
 const OLIVE      = "#464719";  // dark olive — text, footer bg
-const MAUVE      = "#d6a6b1";  // dusty pink — vibe section
+const MAUVE      = "#DDD5BF";  // warm cream — vibe section (from photo clothes)
 
 const details = [
   {
