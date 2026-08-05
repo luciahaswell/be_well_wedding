@@ -73,20 +73,20 @@ export default function HomeTab() {
             Welcome
           </p>
           <h2 className="font-display text-4xl md:text-6xl leading-tight mb-8" style={{ color: BURGUNDY }}>
-            Welcome to Our Wedding Weekend
+            Welcome to Our Wedding Weekend!
           </h2>
           <div className="space-y-5 font-body text-lg leading-relaxed" style={{ color: OLIVE, opacity: 0.85 }}>
             <p>
               We are getting married, and we want you there for the whole weekend, not just the ceremony.
             </p>
             <p>
-              We&apos;re gathering at <strong>Beyul Retreat in Meredith, Colorado</strong> for three nights,
+              We&apos;re gathering at <strong>Beyul Retreat in Meredith, Colorado</strong> for three nights:
               Thursday, July 29 through Sunday, August 1, 2027. Most everyone will be staying together on-site,
               which is the whole point: a rare chance for the people from all the different parts of our lives.
             </p>
             <p>
-              Family, childhood friends, college friends, Denver friends, friends from all walks of life.
-              We get to actually spend time together all weekend, not just clink glasses for one night and go home.
+              Family, childhood friends, college friends, Denver friends, people from every part of our lives.
+              Having everyone together for the whole weekend means real time to catch up.
             </p>
           </div>
         </div>
