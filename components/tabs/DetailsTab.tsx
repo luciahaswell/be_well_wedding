@@ -67,9 +67,12 @@ export default function DetailsTab() {
             <h3 className="font-heading text-2xl font-semibold mb-3" style={{ color: OLIVE }}>
               Funky Formal
             </h3>
-            <p className="font-body text-base leading-relaxed mb-6" style={{ color: OLIVE, opacity: 0.75 }}>
-              Colorful, textured, and fun. Think bold patterns, statement pieces, and
-              playful accessories, dressed up but never boring.
+            <p className="font-body text-base leading-relaxed mb-2" style={{ color: OLIVE, opacity: 0.75 }}>
+              Bright colors, fun textures, and playful accessories. Dressed up but
+              never boring.
+            </p>
+            <p className="font-body text-sm leading-relaxed mb-6" style={{ color: OLIVE, opacity: 0.6 }}>
+              Floor-length dresses, suits for men.
             </p>
 
             {/* Pinterest board embed */}
