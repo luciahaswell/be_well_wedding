@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import MainPage from "@/components/MainPage";
+import WeddingApp from "@/components/WeddingApp";
 import PasswordGate from "@/components/PasswordGate";
-import VideoIntro from "@/components/VideoIntro";
 
-type Phase = "locked" | "video" | "open";
+type Phase = "locked" | "open";
 
 export default function Home() {
   const [phase, setPhase] = useState<Phase | null>(null);
@@ -17,10 +16,6 @@ export default function Home() {
 
   const handleUnlock = () => {
     sessionStorage.setItem("unlocked", "true");
-    setPhase("video");
-  };
-
-  const handleVideoClose = () => {
     setPhase("open");
   };
 
@@ -29,8 +24,7 @@ export default function Home() {
   return (
     <>
       {phase === "locked" && <PasswordGate onUnlock={handleUnlock} />}
-      {phase === "video" && <VideoIntro onClose={handleVideoClose} />}
-      {phase === "open" && <MainPage />}
+      {phase === "open" && <WeddingApp />}
     </>
   );
 }

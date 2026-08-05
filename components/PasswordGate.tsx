@@ -67,7 +67,7 @@ export default function PasswordGate({ onUnlock }: { onUnlock: () => void }) {
 
           {error && (
             <p className="font-body text-xs" style={{ color: GOLD }}>
-              Incorrect password — try again.
+              Incorrect password, try again.
             </p>
           )}
 
