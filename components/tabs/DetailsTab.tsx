@@ -64,9 +64,13 @@ export default function DetailsTab() {
             <p className="font-syne text-[10px] tracking-[0.25em] uppercase mb-2" style={{ color: GOLD }}>
               Dress Code
             </p>
-            <h3 className="font-heading text-2xl font-semibold mb-6" style={{ color: OLIVE }}>
-              Wedding Night
+            <h3 className="font-heading text-2xl font-semibold mb-3" style={{ color: OLIVE }}>
+              Funky Formal
             </h3>
+            <p className="font-body text-base leading-relaxed mb-6" style={{ color: OLIVE, opacity: 0.75 }}>
+              Colorful, textured, and fun. Think bold patterns, statement pieces, and
+              playful accessories, dressed up but never boring.
+            </p>
 
             {/* Pinterest board embed */}
             <div className="w-full overflow-hidden rounded-xl">
