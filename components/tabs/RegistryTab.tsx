@@ -3,9 +3,9 @@ const OLIVE    = "#464719";
 const BURGUNDY = "#591e2a";
 const GOLD     = "#C4A870";
 
-const VENMO_USERNAME = "luciahaswell";
-const VENMO_URL      = `https://venmo.com/${VENMO_USERNAME}`;
-const VENMO_QR       = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&color=464719&bgcolor=DDD5BF&data=${encodeURIComponent(VENMO_URL)}`;
+const JOY_REGISTRY_URL = "https://withjoy.com/lucia-and-etienne-jul-2027/registry";
+const VENMO_USERNAME   = "luciahaswell";
+const VENMO_URL        = `https://venmo.com/${VENMO_USERNAME}`;
 
 export default function RegistryTab() {
   return (
@@ -19,9 +19,9 @@ export default function RegistryTab() {
           we&apos;d love a contribution toward our honeymoon adventures.
         </p>
 
-        {/* Venmo card */}
+        {/* Honeymoon fund card */}
         <div
-          className="rounded-2xl px-8 py-8"
+          className="rounded-2xl px-8 py-10 text-center"
           style={{
             backgroundColor: "rgba(70,71,25,0.07)",
             border: `1px solid rgba(70,71,25,0.18)`,
@@ -30,51 +30,41 @@ export default function RegistryTab() {
           <p className="font-syne text-[10px] tracking-[0.25em] uppercase mb-2" style={{ color: GOLD }}>
             Honeymoon Fund
           </p>
-          <h3 className="font-heading text-2xl font-semibold mb-6" style={{ color: BURGUNDY }}>
-            Venmo
+          <h3 className="font-heading text-2xl font-semibold mb-4" style={{ color: BURGUNDY }}>
+            Help us get somewhere wonderful
           </h3>
-
-          <div className="flex flex-col sm:flex-row items-center gap-8">
-            {/* QR Code */}
-            <div className="flex-shrink-0">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={VENMO_QR}
-                alt="Venmo QR code"
-                width={160}
-                height={160}
-                className="rounded-xl"
-                style={{ border: `2px solid rgba(70,71,25,0.12)` }}
-              />
-            </div>
-
-            {/* Instructions */}
-            <div className="flex-1 text-center sm:text-left">
-              <p className="font-body text-base mb-3" style={{ color: OLIVE, opacity: 0.75 }}>
-                Open Venmo, scan the QR code, or search for:
-              </p>
-              <p
-                className="font-heading text-2xl font-semibold mb-5"
-                style={{ color: BURGUNDY }}
-              >
-                @{VENMO_USERNAME}
-              </p>
-              <a
-                href={VENMO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block py-3 px-6 rounded-xl font-syne text-xs tracking-[0.2em] uppercase transition-opacity hover:opacity-80"
-                style={{
-                  backgroundColor: BURGUNDY,
-                  color: CREAM,
-                  textDecoration: "none",
-                }}
-              >
-                Open in Venmo →
-              </a>
-            </div>
-          </div>
+          <p className="font-body text-base mb-8 max-w-md mx-auto" style={{ color: OLIVE, opacity: 0.75 }}>
+            Our fund lives on Joy, where you can pick an experience or give any amount.
+            No fees for you or for us.
+          </p>
+          <a
+            href={JOY_REGISTRY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block py-3 px-8 rounded-xl font-syne text-xs tracking-[0.2em] uppercase transition-opacity hover:opacity-80"
+            style={{
+              backgroundColor: BURGUNDY,
+              color: CREAM,
+              textDecoration: "none",
+            }}
+          >
+            Visit our registry →
+          </a>
         </div>
+
+        <p className="font-body text-sm mt-6 text-center" style={{ color: OLIVE, opacity: 0.6 }}>
+          Prefer Venmo? You can send to{" "}
+          <a
+            href={VENMO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:opacity-80"
+            style={{ color: BURGUNDY }}
+          >
+            @{VENMO_USERNAME}
+          </a>
+          .
+        </p>
       </div>
     </div>
   );
