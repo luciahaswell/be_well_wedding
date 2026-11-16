@@ -9,6 +9,7 @@ import DetailsTab  from "./tabs/DetailsTab";
 import OurPartyTab from "./tabs/OurPartyTab";
 import GalleryTab  from "./tabs/GalleryTab";
 import RegistryTab from "./tabs/RegistryTab";
+import FaqTab      from "./tabs/FaqTab";
 
 const TAB_MAP: Record<Tab, React.ReactNode> = {
   "Home":      <HomeTab />,
@@ -18,6 +19,7 @@ const TAB_MAP: Record<Tab, React.ReactNode> = {
   "Our Party": <OurPartyTab />,
   "Gallery":   <GalleryTab />,
   "Registry":  <RegistryTab />,
+  "FAQ":       <FaqTab />,
 };
 
 export default function WeddingApp() {

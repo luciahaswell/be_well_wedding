@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const TABS = ["Home", "Our Story", "Schedule", "Details", "Our Party", "Gallery", "Registry"] as const;
+const TABS = ["Home", "Our Story", "Schedule", "Details", "Our Party", "Gallery", "Registry", "FAQ"] as const;
 export type Tab = typeof TABS[number];
 
 const OLIVE      = "#464719";

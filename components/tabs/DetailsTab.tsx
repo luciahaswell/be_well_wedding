@@ -27,10 +27,10 @@ export default function DetailsTab() {
             className="rounded-2xl px-6 py-7"
             style={{ backgroundColor: CREAM, border: "1px solid rgba(70,71,25,0.12)" }}
           >
-            <p className="font-syne text-[10px] tracking-[0.25em] uppercase mb-2" style={{ color: GOLD }}>
-              The Venue
+            <p className="font-syne text-sm tracking-[0.25em] uppercase mb-3" style={{ color: GOLD }}>
+              Good to know
             </p>
-            <h3 className="font-heading text-xl font-semibold mb-3" style={{ color: OLIVE }}>
+            <h3 className="font-heading text-3xl font-semibold mb-3" style={{ color: OLIVE }}>
               <a
                 href="https://www.beyulretreat.com"
                 target="_blank"
@@ -43,7 +43,11 @@ export default function DetailsTab() {
             <p className="font-body text-base leading-relaxed mb-4" style={{ color: OLIVE }}>
               32 acres of Colorado wilderness in Meredith, CO, our home base for three nights.
               Most guests will be staying on-site. Space is limited; guests book their stay directly
-              with the venue.
+              with the venue. You&apos;ll hear from us and the venue closer to July, and we&apos;ll make sure
+              everyone has the information they need to book. Stay patient while we coordinate the
+              details. Rooms will be assigned by the bride and groom; if you have an extreme rooming
+              preference, reach out to us and we&apos;ll do our best to accommodate it. Trust us to get
+              everyone placed properly.
             </p>
             <a
               href="https://bewellrsvp.netlify.app/"
@@ -61,18 +65,20 @@ export default function DetailsTab() {
             className="rounded-2xl px-6 py-7"
             style={{ backgroundColor: CREAM, border: "1px solid rgba(70,71,25,0.12)" }}
           >
-            <p className="font-syne text-[10px] tracking-[0.25em] uppercase mb-2" style={{ color: GOLD }}>
-              Dress Code
+            <p className="font-syne text-sm tracking-[0.25em] uppercase mb-3" style={{ color: GOLD }}>
+              What to wear
             </p>
-            <h3 className="font-heading text-2xl font-semibold mb-3" style={{ color: OLIVE }}>
-              Funky Formal
+            <h3 className="font-heading text-3xl font-semibold mb-3" style={{ color: OLIVE }}>
+              Dress Code: Funky Formal
             </h3>
-            <p className="font-body text-base leading-relaxed mb-2" style={{ color: OLIVE, opacity: 0.75 }}>
-              Bright colors, fun textures, and playful accessories. Dressed up but
-              never boring.
+            <p className="font-body text-base leading-relaxed mb-3" style={{ color: OLIVE, opacity: 0.8 }}>
+              Color is encouraged. If possible, please avoid black, white, and neutrals.
+              Think bright colors, fun textures, and playful accessories.
             </p>
-            <p className="font-body text-sm leading-relaxed mb-6" style={{ color: OLIVE, opacity: 0.6 }}>
-              Floor-length dresses, suits for men.
+            <p className="font-body text-base leading-relaxed mb-6" style={{ color: OLIVE, opacity: 0.8 }}>
+              Maxi dresses for women; suits for men. Dressed up, but never boring.
+              For women wearing heels: the ceremony will be on grass, and the reception will be
+              half grass and half hard floor, so choose shoes that work comfortably across both.
             </p>
 
             {/* Pinterest board embed */}
@@ -103,14 +109,16 @@ export default function DetailsTab() {
             className="rounded-2xl px-6 py-7"
             style={{ backgroundColor: CREAM, border: "1px solid rgba(70,71,25,0.12)" }}
           >
-            <p className="font-syne text-[10px] tracking-[0.25em] uppercase mb-2" style={{ color: GOLD }}>
-              Pack List
+            <p className="font-syne text-sm tracking-[0.25em] uppercase mb-3" style={{ color: GOLD }}>
+              Coming soon
             </p>
-            <h3 className="font-heading text-2xl font-semibold mb-3" style={{ color: OLIVE }}>
-              Coming Soon
+            <h3 className="font-heading text-3xl font-semibold mb-3" style={{ color: OLIVE }}>
+              Packing List
             </h3>
             <p className="font-body text-base leading-relaxed" style={{ color: OLIVE, opacity: 0.7 }}>
-              We&apos;ll post a full packing list here closer to the weekend.
+              We&apos;ll post a full packing list here closer to the weekend. For late July and early
+              August in Meredith, plan for warm days around 67–69°F and cool nights around 40–41°F.
+              Pack layers, comfortable shoes, sun protection, and something for a passing afternoon shower.
             </p>
           </div>
         </div>
